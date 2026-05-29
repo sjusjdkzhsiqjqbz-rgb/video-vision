@@ -354,7 +354,7 @@ class TestEnvResolution:
         monkeypatch.delenv("STEPFUN_BASE_URL", raising=False)
         from stepfun_video import _resolve_base_url
 
-        assert _resolve_base_url() == "https://api.stepfun.ai/v1"
+        assert _resolve_base_url() == "https://api.stepfun.ai/step_plan/v1"
 
     def test_custom_base_url(self, monkeypatch):
         monkeypatch.setenv("STEPFUN_BASE_URL", "https://api.stepfun.ai/step_plan/v1")

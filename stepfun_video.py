@@ -16,7 +16,7 @@ Features:
 
 Env vars:
     STEPFUN_API_KEY        (required)
-    STEPFUN_BASE_URL       (default: https://api.stepfun.ai/v1)
+    STEPFUN_BASE_URL       (default: https://api.stepfun.ai/step_plan/v1)
     STEPFUN_VIDEO_MODEL    (default: step-3.7-flash)
     STEPFUN_VIDEO_TIMEOUT  (default: 180)
     STEPFUN_VIDEO_TEMP     (default: 0.1)
@@ -49,7 +49,7 @@ _debug = DebugSession("stepfun_video", env_var="VISION_TOOLS_DEBUG")
 # Constants
 # ============================================================================
 
-DEFAULT_BASE_URL = "https://api.stepfun.ai/v1"
+DEFAULT_BASE_URL = "https://api.stepfun.ai/step_plan/v1"
 DEFAULT_MODEL = "step-3.7-flash"
 DEFAULT_TIMEOUT = 180
 DEFAULT_TEMPERATURE = 0.1

@@ -35,7 +35,7 @@ hermes chat --toolsets stepfun_video
 | Variable | Default | Description |
 |---|---|---|
 | `STEPFUN_API_KEY` | *(required)* | StepFun API key |
-| `STEPFUN_BASE_URL` | `https://api.stepfun.ai/v1` | API base URL |
+| `STEPFUN_BASE_URL` | `https://api.stepfun.ai/step_plan/v1` | API base URL |
 | `STEPFUN_VIDEO_MODEL` | `step-3.7-flash` | Model override |
 | `STEPFUN_VIDEO_TIMEOUT` | `180` | Request timeout (seconds) |
 | `STEPFUN_VIDEO_TEMP` | `0.1` | Sampling temperature |
