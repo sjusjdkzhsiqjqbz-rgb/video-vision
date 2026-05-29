@@ -1,0 +1,23 @@
+diff --git a/toolsets.py b/toolsets.py
+--- a/toolsets.py
++++ b/toolsets.py
+@@
+     "video": {
+         "description": "Video analysis and understanding tools (opt-in, not in default toolset)",
+         "tools": ["video_analyze"],
+         "includes": []
+     },
++
++    "stepfun_video": {
++        "description": (
++            "StepFun video analysis via step-3.7-flash. "
++            "Standalone tool that bypasses Hermes capability detection. "
++            "Requires STEPFUN_API_KEY in .env."
++        ),
++        "tools": ["stepfun_video_analyze"],
++        "includes": []
++    },
+
+     "image_gen": {
+         "description": "Creative generation tools (images)",
+         "tools": ["image_generate"],
